@@ -1,5 +1,3 @@
-# Summary of my work on visual recognition during my work at a startup
-
 This page talks about what I did at my internship. Although I cannot post the code I wrote during the internship, I can describe the general workflow. 
 
 The overall goal has been to **create a neural network that would detect the specific type of motion from a live video stream**, as an example using a **dog wagging its tail** in a certain specific fashion. My focus is on creating a neural network within the TensorFlow low-level API that would be able to identify this motion from a series of video screenshots. My network would then be combined with a video stream by means of OpenCV library, but this integration is not a part of my own work and I do not discuss it here. The work that I have completed so far has been to analyze the location and position of a dog’s tail from a single static image. I am planning to generalize my network to make use of the sequential nature of the screenshots by using Recursive Neural Net approach, but so far I have been using a simple architecture processing images one-by-one. 
